@@ -3975,7 +3975,7 @@ input, select, textarea {
 }
 
 /* Make image smaller on mobile */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .banner-image img {
     max-width: 120px;  /* shrink for phones */
   }
