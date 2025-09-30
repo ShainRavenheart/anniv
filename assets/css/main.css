@@ -3974,3 +3974,13 @@ input, select, textarea {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
+/* Make image smaller on mobile */
+@media (max-width: 600px) {
+  .banner-image img {
+    max-width: 120px;  /* shrink for phones */
+  }
+  .banner-text h1 {
+    font-size: 1.5rem; /* adjust title size too */
+  }
+}
+
